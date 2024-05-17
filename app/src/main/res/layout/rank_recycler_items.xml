@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F08080"
+    android:orientation="vertical">
+
+    <!-- Item 1 -->
+    <LinearLayout
+        android:id="@+id/rankll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:padding="4dp"
+        android:background="@drawable/rec_corner_curveshape">
+
+        <!--Item rank no.-->
+        <TextView
+            android:id="@+id/item_rankno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center"
+            android:text="1"
+            android:textColor="@color/roseora"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <!-- Item Image -->
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/man" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="8dp">
+
+            <!-- Item Title -->
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ragav"
+                android:textColor="@color/roseora"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Item Mail -->
+            <TextView
+                android:id="@+id/item_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="ragav@gmail.com"
+                android:textColor="@color/roseora"
+                android:textSize="16sp" />
+
+            <!-- Item Profile -->
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="4dp"
+                android:padding="3dp"
+                android:text="View Profile"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_corner_curve"
+                android:id="@+id/rankVPBtn"/>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <!-- Item Points -->
+            <TextView
+                android:id="@+id/item_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:text="1,004 P"
+                android:textColor="@color/white"
+                android:background="@drawable/points_corner_curve"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

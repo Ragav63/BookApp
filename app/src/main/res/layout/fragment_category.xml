@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".CategoryFragment"
+    android:background="#F08080">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/categoryfglTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/categoryfglBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.99" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/categoryfglLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/categoryfglRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/categoryfglBottom"
+        app:layout_constraintEnd_toStartOf="@+id/categoryfglRight"
+        app:layout_constraintStart_toEndOf="@+id/categoryfglLeft"
+        app:layout_constraintTop_toBottomOf="@+id/categoryfglTop"
+        android:id="@+id/svCategoryFragment"
+        >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/categoryfglRight"
+        app:layout_constraintStart_toEndOf="@+id/categoryfglLeft"
+        app:layout_constraintTop_toBottomOf="@+id/svCategoryFragment"
+        android:id="@+id/svrl"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/categoryll">
+
+        <HorizontalScrollView
+            android:id="@+id/hsvImageViews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/categoryfglRight"
+            app:layout_constraintStart_toStartOf="@+id/categoryfglLeft"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="NotSibling">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/homeImg"
+                    android:layout_width="200dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="75dp"
+                    android:src="@drawable/learning"
+                    tools:ignore="MissingConstraints" />
+
+
+                <ImageView
+                    android:id="@+id/categoryImgHome"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="150dp"
+                    android:src="@drawable/homepic"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/rankImghome"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="150dp"
+                    android:src="@drawable/ranks"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/certificateImgHome"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="150dp"
+                    android:src="@drawable/certificate"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/searchImgHome"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="150dp"
+                    android:src="@drawable/searching"
+                    android:background="@color/white"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/categoryhomepic"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginRight="100dp"
+                    android:src="@drawable/homepic"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="MissingConstraints" />
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/hsvImageViews"
+            android:background="@android:color/transparent"
+            android:text="Subjects"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/subjectsTv"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/recllsearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/categoryll"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/categoryfglRight"
+            app:layout_constraintStart_toEndOf="@+id/categoryfglLeft"
+            app:layout_constraintTop_toBottomOf="@+id/subjectsTv"
+            tools:ignore="NotSibling" >
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/subjectsTv"
+            android:clipToPadding="false"
+            tools:listitem="@layout/home_recycler_items"
+            android:id="@+id/recyclerViewCategory">
+
+        </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

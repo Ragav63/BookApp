@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SearchFragment"
+    android:background="#F08080"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toTopOf="@+id/homefglBottom"
+    app:layout_constraintEnd_toStartOf="@+id/homefglRight"
+    app:layout_constraintStart_toEndOf="@+id/homefglLeft"
+    app:layout_constraintTop_toBottomOf="@+id/homefglTop">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/searchfglTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/searchfglBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.99" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/searcgfglLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/searcgfglRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/searchfglBottom"
+        app:layout_constraintEnd_toStartOf="@+id/searcgfglRight"
+        app:layout_constraintStart_toEndOf="@+id/searcgfglLeft"
+        app:layout_constraintTop_toBottomOf="@+id/searchfglTop"
+        android:id="@+id/svSearchFragment"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toStartOf="@+id/searcgfglRight"
+            app:layout_constraintStart_toEndOf="@+id/searcgfglLeft"
+            app:layout_constraintTop_toBottomOf="@+id/svSearchFragment"
+            android:id="@+id/svrl"
+            tools:ignore="MissingConstraints">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/searchll">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="Search Here"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:id="@+id/subjectsTv"/>
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/search16px"
+                    android:hint="Search"
+                    android:textSize="18sp"
+                    android:background="@color/white"
+                    android:drawableTint="@color/roseora"
+                    android:drawablePadding="10dp"
+                    android:padding="8dp"
+                    android:textColorHint="@color/roseora"
+                    android:id="@+id/searchEt"
+                     />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/recllsearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/searchll"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/searcgfglRight"
+                app:layout_constraintStart_toEndOf="@+id/searcgfglLeft"
+                app:layout_constraintTop_toBottomOf="@+id/searchll"
+                tools:ignore="NotSibling" >
+
+                <!-- RecyclerView Categories in Home-->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rec_viewSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintTop_toBottomOf="@+id/categorylists"
+                    tools:listitem="@layout/search_rec_items" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

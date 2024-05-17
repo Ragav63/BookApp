@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btmNavmenuHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/homerosera64px"
+        android:iconTint="@color/roseora"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/btmNavmenuCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/category64px"
+        android:iconTint="@color/roseora"
+        android:title="Category" />
+
+    <item
+        android:id="@+id/btmNavmenuRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/rank64px"
+        android:iconTint="@color/roseora"
+        android:title="Rank" />
+
+    <item
+        android:id="@+id/btmNavmenuCertificate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/certificate64px"
+        android:iconTint="@color/roseora"
+        android:title="Certificate" />
+
+    <item
+        android:id="@+id/btmNavmenuSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/search64px"
+        android:iconTint="@color/roseora"
+        android:title="Search" />
+
+</menu>

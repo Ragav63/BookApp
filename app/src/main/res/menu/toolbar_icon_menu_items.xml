@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation-view">
+
+    <group android:id="@+id/toolbargrp1">
+        <item
+            android:icon="@drawable/userrosera24px"
+            android:id="@+id/icon_profile"
+            android:title="Profile"
+            android:textColor="@color/roseora"
+            android:iconTint="@color/roseora"/>
+
+    </group>
+
+    <group android:id="@+id/toolbargrp2">
+        <item
+            android:icon="@drawable/settings24px"
+            android:id="@+id/icon_settings"
+            android:title="Settings"
+            android:iconTint="@color/roseora"
+            />
+
+        <item
+            android:icon="@drawable/profileinforosera24px"
+            android:id="@+id/icon_downloadinfo"
+            android:title="Download Info"
+            android:iconTint="@color/roseora"/>
+
+        <item
+            android:icon="@drawable/helprosera24px"
+            android:id="@+id/icon_help"
+            android:title="Help"
+            android:iconTint="@color/roseora"/>
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation-view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/homerosera64px"
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:iconTint="@color/white"/>
+
+        <item
+            android:icon="@drawable/category64px"
+            android:id="@+id/nav_category"
+            android:title="Category"
+            android:iconTint="@color/white" />
+
+        <item
+            android:icon="@drawable/rank64px"
+            android:id="@+id/nav_rank"
+            android:title="Rank"
+            android:iconTint="@color/white"/>
+
+        <item
+            android:icon="@drawable/certificate64px"
+            android:id="@+id/nav_certificate"
+            android:title="Certificate"
+            android:iconTint="@color/white"/>
+
+        <item
+            android:icon="@drawable/search64px"
+            android:id="@+id/nav_search"
+            android:title="Search"
+            android:iconTint="@color/white"/>
+
+    </group>
+
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout64px"
+            android:title="Logout"
+            android:iconTint="@color/white"/>
+
+    </group>
+
+
+</menu>
