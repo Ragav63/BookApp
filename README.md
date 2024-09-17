@@ -19,15 +19,15 @@ User-friendly interface with intuitive navigation and subject-based categorizati
 
 The Complete design is given below...
 
-<img src = "https://github.com/user-attachments/assets/3e5045ca-0814-4ccb-88a7-69a8ec5fedaf" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/ca0763f9-f11d-4ad3-b465-a9d118d341bb" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/4ae672ec-d3c1-4691-9c3d-bd18522a8259" width="300" height="400"/>
+<img src = "https://github.com/user-attachments/assets/3e5045ca-0814-4ccb-88a7-69a8ec5fedaf" width="250" height="400"/>  <img src = "https://github.com/user-attachments/assets/ca0763f9-f11d-4ad3-b465-a9d118d341bb" width="250" height="400"/>  <img src = "https://github.com/user-attachments/assets/4ae672ec-d3c1-4691-9c3d-bd18522a8259" width="250" height="400"/>
 
-<img src = "https://github.com/user-attachments/assets/b1abf054-a1dd-405c-9e9c-79e116c62d8b" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/3d83500b-6663-4025-849a-32c2fa2fa121" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/5c2a3241-feba-4771-b252-01058aa00b0c" width="300" height="400"/>
+<img src = "https://github.com/user-attachments/assets/b1abf054-a1dd-405c-9e9c-79e116c62d8b" width="250" height="400"/>  <img src = "https://github.com/user-attachments/assets/3d83500b-6663-4025-849a-32c2fa2fa121" width="250" height="400"/>  <img src = "https://github.com/user-attachments/assets/5c2a3241-feba-4771-b252-01058aa00b0c" width="250" height="400"/>
 
-<img src = "https://github.com/user-attachments/assets/cdf24dde-5c86-416c-9ece-62426bdeda73" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/2bc911dc-30b9-42bb-aa85-61529787bee0" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/a726c3c1-69b0-4955-8d11-9b4b7a533479" width="300" height="400"/>
+<img src = "https://github.com/user-attachments/assets/cdf24dde-5c86-416c-9ece-62426bdeda73" width="250" height="400"/>  <img src = "https://github.com/user-attachments/assets/2bc911dc-30b9-42bb-aa85-61529787bee0" width="250" height="400"/>  <img src = "https://github.com/user-attachments/assets/a726c3c1-69b0-4955-8d11-9b4b7a533479" width="250" height="400"/>
 
-<img src = "https://github.com/user-attachments/assets/0eb05c56-7022-4f0c-a850-fd2be9f58af3" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/3b9c41f7-9b1f-45e1-b1fa-c27a40ef9568" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/2e64b288-d94a-4ab2-a5eb-a3ca170a4305" width="300" height="400"/>
+<img src = "https://github.com/user-attachments/assets/0eb05c56-7022-4f0c-a850-fd2be9f58af3" width="250" height="400"/>  <img src = "https://github.com/user-attachments/assets/3b9c41f7-9b1f-45e1-b1fa-c27a40ef9568" width="250" height="400"/>  <img src = "https://github.com/user-attachments/assets/2e64b288-d94a-4ab2-a5eb-a3ca170a4305" width="250" height="400"/>
 
-<img src = "https://github.com/user-attachments/assets/7778220e-f316-49c4-ad41-45f1a55df6cc" width="300" height="400"/>
+<img src = "https://github.com/user-attachments/assets/7778220e-f316-49c4-ad41-45f1a55df6cc" width="250" height="400"/>
 
 
 Technologies Used:Android Studio: The app is developed using Android Studio, the official integrated development environment (IDE) for Android app development.
