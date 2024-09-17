@@ -1,7 +1,7 @@
 # Learn Here(Book-App)
 Introducing Book-App, your all-in-one destination for staying updated and entertained! With our cutting-edge Android Java app, you can dive into the latest news and trends across entertainment, science, technology, and sports, all in one place.
 
-![Screenshot_20240910_112850](https://github.com/user-attachments/assets/3e5045ca-0814-4ccb-88a7-69a8ec5fedaf=250x250)
+<img src = "https://github.com/user-attachments/assets/3e5045ca-0814-4ccb-88a7-69a8ec5fedaf" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/3e5045ca-0814-4ccb-88a7-69a8ec5fedaf" width="300" height="400"/>  <img src = "https://github.com/user-attachments/assets/3e5045ca-0814-4ccb-88a7-69a8ec5fedaf" width="300" height="400"/>
 
 Learn Here is an Android application designed to provide users with a platform to discover and explore a wide range of books across different genres.
 
